@@ -1,3 +1,5 @@
+[上一节](../s01/window.md)
+
 # 一个三角形
 
 如果我只说是一个三角形，你可能已经退出了。那如果我说是一个彩色的呢？
@@ -26,7 +28,7 @@ public class OutFirstApplication /* ... */ {
     /* ... */
 }
 ```
-如果你写过 OpenGL 的直接模式，你可能会觉得有点熟悉。没错，这是 swgl-core 包含的 **IMS**。IMS，即立即模式模拟器(**I**mmediate **M**ode **S**imulator)。IMS 的方法都以`lgl`开头。  
+如果你研究过 OpenGL 的直接模式，你可能会觉得有点熟悉。没错，这是 swgl-core 包含的 **IMS**。IMS，即立即模式模拟器(**I**mmediate **M**ode **S**imulator)。IMS 的方法都以`lgl`开头。  
 下面让我们来熟悉一下这段代码。
 
 - `lglBegin`指示<!--断句-->我们要开始绘画了。`GLDrawMode.TRIANGLES`则说明我们要画的是三角形。`GLDrawMode`里还有许多其他的图形，例如`POINTS`, `LINES`等。  
@@ -37,4 +39,6 @@ public class OutFirstApplication /* ... */ {
 
 现在你已经学会如何绘制三角形▲了，启动程序，然后你会看到一个彩色的三角形。
 
-![There is no photo](colorful-triangle.png)
+![A colorful triangle](colorful-triangle.png)
+
+[下一节](../s03/quad.md)
